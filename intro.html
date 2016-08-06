@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/reset.css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="css/footer.css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="css/intro.css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="css/animation.css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="css/swiper-3.3.1.min.css" media="screen" title="no title" charset="utf-8">
+        <title>乌合之众-游戏特色</title>
+    </head>
+    <body>
+        <div class="loading-wrap">
+            <div class="loading">
+                <canvas id="canvas" width="275" height="275"></canvas>
+                <div class="ltext">0</div>
+            </div>
+            <div class="video" style="display:none">
+                <video height="1008" preload="auto">
+                    <source src="http://s1.pkey.cn/badguy/cg.mp4" type="video/mp4">
+                    <source src="http://s1.pkey.cn/badguy/cg.webm" type="video/webm">
+                        您的播放器不支持播放此视频。。。。。。
+                </video>
+                <a class="video-close" href="#">SKIP 跳过></a>
+            </div>
+        </div>
+        <div class="wrap" style="display:none">
+
+            <header class="tab" style="top:-220px;">
+                <div class="center">
+                    <a class="nav nav1 on" href="javascript:;" data-page="feel">
+                        <span class="icon"></span>
+                        <em>感受极致</em>
+                    </a>
+                    <a class="nav nav2" href="javascript:;" data-page="excellence">
+                        <span class="icon"></span>
+                        <em>天生卓越</em>
+                    </a>
+                    <a class="btn-order" href="javascript:;" data-page="main">
+                        <img src="img/logo.png" alt="" />
+                    </a>
+                    <a class="nav nav3" href="javascript:;" data-page="honor">
+                        <span class="icon"></span>
+                        <em>见证荣耀</em>
+                    </a>
+                    <a class="nav nav4" href="javascript:;" data-page="meet">
+                        <span class="icon"></span>
+                        <em>邂逅伟大</em>
+                    </a>
+                </div>
+            </header>
+
+            <div class="page tabContent feel" style="display:none">
+                <span class="prev"></span>
+                <span class="next"></span>
+                <div id="focus_Box">
+                    <ul>
+                        <li><img src="img/spec05.jpg" alt="" /></li>
+                        <li><img src="img/spec01.jpg" alt="" /></li>
+                        <li><img src="img/spec02.jpg" alt="" /></li>
+                        <li><img src="img/spec03.jpg" alt="" /></li>
+                        <li><img src="img/spec04.jpg" alt="" /></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="page tabContent excellence" style="display:none">
+                <span class="prev"></span>
+                <span class="next"></span>
+                <div class="center">
+                    <a class="game game1" href="javascript:;">
+                        <img src="img/game1.jpg" alt="" class="gj" style="display:block"/>
+                        <img src="img/game1.gif" alt="" class="gg" style="display:none"/>
+                        <span></span>
+                    </a>
+                    <a class="game game2" href="javascript:;">
+                        <img src="img/game2.jpg" alt="" class="gj" style="display:block"/>
+                        <img src="img/game2.gif" alt="" class="gg" style="display:none"/>
+                        <span></span>
+                    </a>
+                    <a class="game game3" href="javascript:;">
+                        <img src="img/game3.jpg" alt="" class="gj" style="display:block"/>
+                        <img src="img/game3.gif" alt="" class="gg" style="display:none"/>
+                        <span></span>
+                    </a>
+                    <a class="game game4" href="javascript:;">
+                        <img src="img/game4.jpg" alt="" class="gj" style="display:block"/>
+                        <img src="img/game4.gif" alt="" class="gg" style="display:none"/>
+                        <span></span>
+                    </a>
+                </div>
+
+            </div>
+            <div class="page main">
+                <div class="center">
+                    <div class="age"></div>
+                    <div class="country">
+                        <div class="flag flag1">中文</div>
+                        <ul class="flags">
+                            <li class="flag flag2"><a href="#">United Kingdom</a></li>
+                            <li class="flag flag3"><a href="#">Русский язык</a></li>
+                            <li class="flag flag4"><a href="#">한국</a></li>
+                            <li class="flag flag5"><a href="#">日本</a></li>
+                        </ul>
+                    </div>
+                    <nav>
+                        <a class="nav1" href="javascript:;" data-page="feel">
+                            <span class="icon"></span>
+                            <em>感受极致</em>
+                            <i>一部能玩的好莱坞大片</i>
+
+                        </a>
+                        <a class="nav2" href="javascript:;" data-page="excellence">
+                            <span class="icon"></span>
+                            <em>天生卓越</em>
+                            <i>3D时代云端引擎首作</i>
+                        </a>
+                        <a class="btn-order" href="javascript:;" data-page="order">
+                            预约激活码
+                        </a>
+                        <a class="nav3" href="javascript:;" data-page="honor">
+                            <span class="icon"></span>
+                            <em>见证荣耀</em>
+                            <i>苹果WWDC现场展示产品</i>
+                        </a>
+                        <a class="nav4" href="javascript:;" data-page="meet">
+                            <span class="icon"></span>
+                            <em>邂逅伟大</em>
+                            <i>世界顶级游戏研发商打造</i>
+                        </a>
+
+                    </nav>
+
+                </div>
+            </div>
+            <div class="page tabContent honor" style="display:none">
+                <span class="prev"></span>
+                <span class="next"></span>
+                <div class="center">
+                    <div class="honor-num">
+                        <a href="javascript:;" class="btn-honor1"></a>
+                        <a href="javascript:;" class="btn-honor2"></a>
+                        <a href="javascript:;" class="btn-honor3"></a>
+                        <a href="javascript:;" class="btn-honor4"></a>
+                        <a href="javascript:;" class="btn-honor5"></a>
+                        <a href="javascript:;" class="btn-honor6"></a>
+                        <a href="javascript:;" class="btn-honor7"></a>
+                        <a href="javascript:;" class="btn-honor8"></a>
+                        <a href="javascript:;" class="btn-honor9"></a>
+                    </div>
+                    <div class="trans" style="display:none">
+                        <div class="center">
+                            <ul>
+                                <li><img src="img/honor1.png" alt="" /></li>
+                                <li><img src="img/honor2.png" alt="" /></li>
+                                <li><img src="img/honor3.png" alt="" /></li>
+                                <li><img src="img/honor4.png" alt="" /></li>
+                                <li><img src="img/honor5.png" alt="" /></li>
+                                <li><img src="img/honor6.png" alt="" /></li>
+                                <li><img src="img/honor7.png" alt="" /></li>
+                                <li><img src="img/honor8.png" alt="" /></li>
+                                <li><img src="img/honor9.png" alt="" /></li>
+                            </ul>
+                            <div class="honor-prev"></div>
+                            <div class="honor-next"></div>
+                            <div class="honor-btns"></div>
+                            <div class="honor-close"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="page tabContent meet" style="display:none">
+                <span class="prev"></span>
+                <span class="next"></span>
+                <section class="time-ctrl">
+                    <a href="javascript:;" class="time on">01<i style="display:block" class="text">3D次世代云端引擎开发完毕</i></a>
+                    <span class="time-bar"></span>
+                    <a href="javascript:;" class="time">02<i class="text">2014《乌合之众》项目立项</i></a>
+                    <span class="time-bar"></span>
+                    <a href="javascript:;" class="time">03<i class="text">首批角色设定出炉</i></a>
+                    <span class="time-bar"></span>
+                    <a href="javascript:;" class="time">04<i class="text">游戏框架及核心战斗完成</i></a>
+                    <span class="time-bar"></span>
+                    <a href="javascript:;" class="time">05<i class="text">受邀参加苹果（WWDC）发布会</i></a>
+                    <span class="time-bar"></span>
+                    <a href="javascript:;" class="time">06</a>
+                    <span class="time-bar"></span>
+                    <span class="time-bar2"></span>
+
+                </section>
+                <section class="meet-img">
+                    <ul class="meets">
+                        <li class="meet1">
+                            <div class="m m1-1"></div>
+                            <div class="m m1-2"></div>
+                        </li>
+                        <li class="meet2">
+                            <div class="m m2"></div>
+                        </li>
+                        <li class="meet3">
+                            <div class="m m3"></div>
+                        </li>
+                        <li class="meet4">
+                            <div class="center">
+                                <div class="m m4 m4-1"></div>
+                                <div class="m m4 m4-2"></div>
+                                <div class="m m4 m4-3"></div>
+                                <div class="m m4 m4-4"></div>
+                            </div>
+                        </li>
+                        <li class="meet5">
+                            <div class="m m5-1"></div>
+                            <div class="m m5-2"></div>
+                        </li>
+                        <li class="meet6">
+                            <div class="m m6">
+                                <a class="btn-order2" href="#">预约激活码</a>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="page order" style="display:none">
+                <div class="center">
+                    <h4>预约激活码</h4>
+                    <h5>GAME RESERVATION</h5>
+                    <section class="box1">
+                        <h6>预约填写信息</h6>
+                        <form class="" action="index.html" method="post">
+                            <p class="phone">
+                                <label for="">手机号码：</label>
+                                <input type="text" name="name" value="">
+                            </p>
+                            <p class="device">
+                                <label for="">设备类型:</label>
+                                <input type="hidden" name="name" value="安卓ANDROID">
+                                <a href="javascript:;"><span class="on"></span>安卓ANDROID</a>
+                                <a href="javascript:;"><span></span>苹果IOS</a>
+                            </p>
+                            <p class="btn-wrap">
+                                <input class="pre-btn" type="button" name="name" value="抢先预订">
+                            </p>
+                        </form>
+                    </section>
+                    <section class="box2">
+                        <h6>关注抢先领取</h6>
+                        <p class="weixin">官方微信:<br><b>乌合之众手游</b></p>
+                        <p class="tieba">官方贴吧:<br><a href="http://tieba.baidu.com/f?kw=%E4%B9%8C%E5%90%88%E4%B9%8B%E4%BC%97" target="_blank"><b>乌合之众</b></a></p>
+                    </section>
+                </div>
+            </div>
+            <div class="fl-qrcode">
+                <span class="close"></span>
+            </div>
+            <!-- 返回按钮 -->
+            <a class="btn-back" href="javascript:;" style="display:none">返回<br/>首页</a>
+            <!-- 视频 -->
+            <div class="video-layer" style="display:none">
+                <div class="center">
+                    <div class="video-container">
+                        <!-- <video class="game-video" width="800" height="450" autoplay controls preload="auto">
+                            <source class="video-src" src="http://s2.pkey.cn/badguy/20160119/01/Crysis3.webmhd.webm" type="video/webm">
+                        </video>
+                        <span class="layer-close"></span>
+                        <div class="play-btn" style="display:none"></div> -->
+                    </div>
+
+                </div>
+            </div>
+            <footer>
+                <div class="center">
+                     <div class="copyRight">
+                        <p>
+                            <img src="img/beian.png" alt="" />
+                            <span>沪公网安备 31010402000711号 | </span>
+                            <a href="http://sq.ccm.gov.cn/ccnt/sczr/service/business/emark/toDetail/4028c08b511f3c230151414419193992"><img src="img/whjy.png" alt="" /></a>
+                            <span> 沪网文[2015]0802-202号 | 沪ICP备15039624号-1</span>
+                        </p>
+                        <span>抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</span>
+                        <span>上海紫钥信息技术有限公司 版权所有</span>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+
+
+    </body>
+    <script src="js/jquery-2.2.3.min.js" charset="utf-8"></script>
+    <script src="js/swiper-3.3.0.min.js" charset="utf-8"></script>
+    <script src="js/intro.js" charset="utf-8"></script>
+    <script src="js/ZoomPic.js"></script>
+
+</html>

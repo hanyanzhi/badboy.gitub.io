@@ -1,0 +1,44 @@
+footer .sprite{
+    background: url('../img/icon.png') no-repeat;
+}
+footer{
+    width: 100%;
+    min-width: 100px;
+    height: 107px;
+    background: black url('../img/copyright.jpg') no-repeat center 0;
+    color: white;
+    float: left;
+    z-index: 101;
+}
+footer .center{
+    width: 1000px;
+    min-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+footer .copyRight{
+    width: 55%;
+    float: right;
+    padding: 15px 0;
+}
+footer .copyRight img{
+    vertical-align: middle;
+}
+footer .copyRight a img{
+    width: 30px;
+    height: 30px;
+}
+footer span{
+    color: white;
+    font-size: 12px;
+    line-height: 24px;
+}
+footer .age18{
+    width: 35px;
+    height: 43px;
+    background-position: -971px -1px;
+    position: absolute;
+    bottom: 25px;
+    right: -55px;
+}

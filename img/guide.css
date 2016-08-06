@@ -1,0 +1,28 @@
+
+.guide { display:inline-block; overflow: hidden; background-repeat: no-repeat; background-image: url('guide.png'); }
+
+.btn2 { width: 96px; height: 111px; background-position: -1px -1px; }
+.t { width: 20px; height: 51px; background-position: -1px -114px; }
+.btn1 { width: 128px; height: 45px; background-position: -23px -114px; }
+.btn2.on { width: 96px; height: 111px; background-position: -99px -1px; }
+.btn1.on { width: 128px; height: 45px; background-position: -153px -114px; }
+.nav { width: 260px; height: 92px; background-position: -197px -1px; }
+.nav.on { width: 260px; height: 92px; background-position: -459px -1px; }
+.m1 { width: 109px; height: 88px; background-position: -721px -1px; }
+.m10 { width: 109px; height: 88px; background-position: -721px -91px; }
+.m11 { width: 109px; height: 88px; background-position: -832px -1px; }
+.m12 { width: 109px; height: 88px; background-position: -832px -91px; }
+.m13 { width: 109px; height: 88px; background-position: -943px -1px; }
+.m14 { width: 109px; height: 88px; background-position: -943px -91px; }
+.m15 { width: 109px; height: 88px; background-position: -1054px -1px; }
+.m16 { width: 109px; height: 88px; background-position: -1054px -91px; }
+.m17 { width: 109px; height: 88px; background-position: -1165px -1px; }
+.m18 { width: 109px; height: 88px; background-position: -1165px -91px; }
+.m2 { width: 109px; height: 88px; background-position: -1276px -1px; }
+.m3 { width: 109px; height: 88px; background-position: -1276px -91px; }
+.m4 { width: 109px; height: 88px; background-position: -1387px -1px; }
+.m5 { width: 109px; height: 88px; background-position: -1387px -91px; }
+.m6 { width: 109px; height: 88px; background-position: -1498px -1px; }
+.m7 { width: 109px; height: 88px; background-position: -1609px -1px; }
+.m8 { width: 109px; height: 88px; background-position: -1498px -91px; }
+.m9 { width: 109px; height: 88px; background-position: -1609px -91px; }
